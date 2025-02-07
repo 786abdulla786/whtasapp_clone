@@ -50,34 +50,9 @@ class _ChatssState extends State<Chatss> {
                       prefixIcon: Icon(Icons.search,color: Colors.white,)
                     ),
                   ),
-             ),
-                // Row(
-                //   children: [
-                //         TextButton(onPressed: (){Navigator.of(context).push(MaterialPageRoute(builder: (context){
-                //         return Bottumnavi();
-                //       }));},
-                //        child: Text('All',style: TextStyle(color: Colors.white),),style: ButtonStyle(overlayColor: WidgetStatePropertyAll(const Color.fromARGB(255, 47, 116, 82))),),
-                // TextButton(onPressed: (){Navigator.of(context).push(MaterialPageRoute(builder: (context){
-                //   return Unreadd();
-                // }));},
-                //  child: Text('Unread',style: TextStyle(color: Colors.white)),style: ButtonStyle(overlayColor: WidgetStatePropertyAll(const Color.fromARGB(255, 47, 118, 84))),),
-                // TextButton(onPressed: (){},
-                // //   Navigator.of(context).push(MaterialPageRoute(builder: (context){
-                // //   return 
-                // // }));},
-                //  child: Text('Favourites',style: TextStyle(color: Colors.white)),style: ButtonStyle(overlayColor: WidgetStatePropertyAll(const Color.fromARGB(255, 47, 116, 82)))),
-                // TextButton(onPressed: (){},
-                //  child: Text('Groups',style: TextStyle(color: Colors.white)),style: ButtonStyle(overlayColor: WidgetStatePropertyAll(const Color.fromARGB(255, 47, 116, 82)))),
-                // IconButton(onPressed: (){},
-                //  icon: Icon(Icons.add),style: ButtonStyle(overlayColor: WidgetStatePropertyAll(const Color.fromARGB(255, 47, 116, 82)))),
-    
-                //       ]),
-                
+             ), 
                     TabBar(
                       isScrollable: true,
-                      
-
-
                       tabs: [
                     Tab(text: 'All',),
                     Tab( text: 'Unread' ),

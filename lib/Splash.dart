@@ -15,7 +15,7 @@ class _SplasheState extends State<Splashe> {
     super.initState();
   }
   Future<void>splash()async{
-      await Future.delayed(Duration(seconds: 2));
+      await Future.delayed(Duration(seconds: 1));
       Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context){
         return Bottumnavi();
       }));

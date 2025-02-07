@@ -15,8 +15,7 @@ class _SettingState extends State<Setting> {
     return  Scaffold(
       backgroundColor: Colors.black,
       body:SingleChildScrollView(
-      child: 
-       Column(
+      child:Column(
         children: [
           Padding(
             padding: EdgeInsets.all(15.0),
@@ -44,20 +43,17 @@ class _SettingState extends State<Setting> {
             trailing: Icon(Icons.qr_code,color: Colors.white,),
           ),
           ListTile(
-            leading: Icon(Icons.face_3),
+            leading: Icon(Icons.face_3,color: Colors.white,),
             title: InkWell(onTap: () =>Navigator.of(context).push(MaterialPageRoute(builder: (context) => Communitie())), 
               child: Text('Avatar',style: TextStyle(color: Colors.white))),
             trailing:InkWell(onTap: () => MaterialPageRoute(builder: (context) => Callss(),),
-              child: Icon(Icons.chevron_right))
+              child: Icon(Icons.chevron_right,color: Colors.white,))
           ),
-         Card(
-          color: const Color.fromARGB(255, 39, 37, 37),
-          child: 
           ListTile(leading: Icon(Icons.list,color: Colors.white),
           title: Text("Lists",style: TextStyle(color: Colors.white),),trailing: Icon(Icons.chevron_right,color: Colors.white,),
            ),
            
-          ),
+          
         
        
         ],
